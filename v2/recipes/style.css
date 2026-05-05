@@ -1,0 +1,58 @@
+html {
+  box-sizing: border-box;
+  background-color: azure;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+#main_title {
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.picture {
+    width: 310px;
+    text-align: center;
+    margin: 50px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.desc {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    width: 1000px;
+    margin: 50px auto;
+    font-weight: bold;
+}
+
+.recipe { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    width: 500px;
+    padding: 50px;
+    margin: 50px auto;
+    border: 5px solid rgb(198, 248, 248);
+    background-color: rgb(192, 255, 255);
+}
+
+.link {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li  {
+    margin: 10px;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    width: 500px;
+    margin: 50px auto;
+    font-weight: bold;
+}
